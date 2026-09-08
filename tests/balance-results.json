@@ -1,0 +1,62 @@
+[
+  {
+    "milestone": "First drill",
+    "seconds": 2
+  },
+  {
+    "milestone": "Smelter",
+    "seconds": 41
+  },
+  {
+    "milestone": "Workshop on island 1",
+    "seconds": 83
+  },
+  {
+    "milestone": "Level 2 drill",
+    "seconds": 126
+  },
+  {
+    "milestone": "Level 2 smelter",
+    "seconds": 155
+  },
+  {
+    "milestone": "Copperwind bridge",
+    "seconds": 261
+  },
+  {
+    "milestone": "Iron drill on island 2",
+    "seconds": 276
+  },
+  {
+    "milestone": "Drone dock on island 1",
+    "seconds": 348
+  },
+  {
+    "milestone": "Drone dock on island 2",
+    "seconds": 433
+  },
+  {
+    "milestone": "First drone delivery",
+    "seconds": 462
+  },
+  {
+    "milestone": "Sky Beacon",
+    "seconds": 941
+  },
+  {
+    "milestone": "Iron drill on island 3",
+    "seconds": 1154
+  },
+  {
+    "milestone": "Smelter on island 3",
+    "seconds": 1166
+  },
+  {
+    "milestone": "Workshop on island 3",
+    "seconds": 1188
+  },
+  {
+    "milestone": "Drone dock on island 3",
+    "seconds": 1257
+  }
+]

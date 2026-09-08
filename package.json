@@ -1,0 +1,24 @@
+{
+  "name": "floating-island-factory",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview",
+    "test": "node --import tsx --test tests/*.test.ts",
+    "balance": "node --import tsx tests/balance.ts"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "lucide": "^0.468.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5",
+    "@types/three": "^0.180.0",
+    "@types/node": "^22.18.0",
+    "tsx": "^4.20.5"
+  }
+}

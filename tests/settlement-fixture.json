@@ -1,0 +1,268 @@
+{
+  "version": 1,
+  "time": 1268.7499999999418,
+  "stock": {
+    "ore": 0,
+    "ingot": 0,
+    "gear": 0
+  },
+  "islands": [
+    {
+      "unlocked": true,
+      "inventory": {
+        "ore": 268,
+        "ingot": 4,
+        "gear": 2
+      }
+    },
+    {
+      "unlocked": true,
+      "inventory": {
+        "ore": 302,
+        "ingot": 0,
+        "gear": 0
+      }
+    },
+    {
+      "unlocked": true,
+      "inventory": {
+        "ore": 8,
+        "ingot": 4,
+        "gear": 10
+      }
+    }
+  ],
+  "buildings": [
+    {
+      "id": 1,
+      "type": "hq",
+      "island": 0,
+      "pad": -1,
+      "level": 1,
+      "progress": 0,
+      "active": false,
+      "cycles": 0,
+      "invested": {
+        "ore": 0,
+        "ingot": 0,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 2,
+      "type": "drill",
+      "island": 0,
+      "pad": 0,
+      "level": 2,
+      "progress": 0.9399999999999972,
+      "active": true,
+      "cycles": 688,
+      "invested": {
+        "ore": 32,
+        "ingot": 8,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 3,
+      "type": "smelter",
+      "island": 0,
+      "pad": 1,
+      "level": 2,
+      "progress": 0.13666666666666588,
+      "active": true,
+      "cycles": 636,
+      "invested": {
+        "ore": 46,
+        "ingot": 8,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 4,
+      "type": "workshop",
+      "island": 0,
+      "pad": 2,
+      "level": 1,
+      "progress": 0.4200000000000503,
+      "active": true,
+      "cycles": 113,
+      "invested": {
+        "ore": 18,
+        "ingot": 10,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 5,
+      "type": "drill",
+      "island": 1,
+      "pad": 0,
+      "level": 1,
+      "progress": 0,
+      "active": true,
+      "cycles": 331,
+      "invested": {
+        "ore": 12,
+        "ingot": 0,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 6,
+      "type": "dock",
+      "island": 0,
+      "pad": 3,
+      "level": 1,
+      "progress": 0,
+      "active": false,
+      "cycles": 0,
+      "invested": {
+        "ore": 0,
+        "ingot": 24,
+        "gear": 8
+      },
+      "paused": false
+    },
+    {
+      "id": 7,
+      "type": "dock",
+      "island": 1,
+      "pad": 1,
+      "level": 1,
+      "progress": 0,
+      "active": false,
+      "cycles": 0,
+      "invested": {
+        "ore": 0,
+        "ingot": 24,
+        "gear": 8
+      },
+      "paused": false
+    },
+    {
+      "id": 9,
+      "type": "beacon",
+      "island": 0,
+      "pad": 4,
+      "level": 1,
+      "progress": 0,
+      "active": false,
+      "cycles": 0,
+      "invested": {
+        "ore": 70,
+        "ingot": 100,
+        "gear": 55
+      },
+      "paused": false
+    },
+    {
+      "id": 10,
+      "type": "drill",
+      "island": 2,
+      "pad": 0,
+      "level": 1,
+      "progress": 0.3333333333333333,
+      "active": true,
+      "cycles": 38,
+      "invested": {
+        "ore": 12,
+        "ingot": 0,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 11,
+      "type": "smelter",
+      "island": 2,
+      "pad": 1,
+      "level": 1,
+      "progress": 0.3333333333333333,
+      "active": true,
+      "cycles": 34,
+      "invested": {
+        "ore": 26,
+        "ingot": 0,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 12,
+      "type": "workshop",
+      "island": 2,
+      "pad": 2,
+      "level": 1,
+      "progress": 0.8200000000000048,
+      "active": true,
+      "cycles": 10,
+      "invested": {
+        "ore": 18,
+        "ingot": 10,
+        "gear": 0
+      },
+      "paused": false
+    },
+    {
+      "id": 13,
+      "type": "dock",
+      "island": 2,
+      "pad": 3,
+      "level": 1,
+      "progress": 0,
+      "active": false,
+      "cycles": 0,
+      "invested": {
+        "ore": 0,
+        "ingot": 24,
+        "gear": 8
+      },
+      "paused": false
+    }
+  ],
+  "routes": [
+    {
+      "id": 8,
+      "source": 1,
+      "target": 0,
+      "resource": "ore",
+      "reserve": 10,
+      "enabled": true,
+      "phase": "outbound",
+      "elapsed": 7.999999999999988,
+      "cargo": 12,
+      "delivered": 348
+    },
+    {
+      "id": 14,
+      "source": 2,
+      "target": 1,
+      "resource": "ingot",
+      "reserve": 8,
+      "enabled": true,
+      "phase": "waiting",
+      "elapsed": 0,
+      "cargo": 0,
+      "delivered": 0
+    }
+  ],
+  "nextId": 15,
+  "manualAt": 132.74999999999676,
+  "milestones": {
+    "gather": true,
+    "drill": true,
+    "smelter": true,
+    "workshop": true,
+    "outpost": true,
+    "dock": true,
+    "beacon": true
+  },
+  "deliveries": 29,
+  "beacon": true
+}
