@@ -1,5 +1,7 @@
 # Floating Island Factory
 
+[Play the live game](https://floating-island-factory.vercel.app/) · [Public GitHub repository](https://github.com/Kiril-P/floating-island-factory)
+
 A playable 3D factory diorama: turn a grassy island into a little industrial settlement above the clouds. Built with TypeScript, Three.js, and Vite. All terrain, buildings, transport, and scenery are procedural 3D geometry.
 
 ## Run
@@ -21,6 +23,18 @@ npm run balance  # Simulate the full progression without granting resources
 ```
 
 The production build is a static site and can be served from `dist/`. No accounts, paid services, server, or external game assets are required. Optional Google Fonts have system-font fallbacks.
+
+## Deploy to Vercel
+
+The live game is hosted at **https://floating-island-factory.vercel.app/**. `vercel.json` configures the Vite framework, `npm run build`, and the `dist/` output directory.
+
+To publish an update from an account with access to the Vercel project:
+
+```sh
+npx vercel deploy --prod --project floating-island-factory
+```
+
+Automatic GitHub deployments require a [GitHub login connection in the Vercel account](https://vercel.com/docs/accounts/create-an-account#login-methods-and-connections), followed by connecting this repository to the Vercel project. Until that connection is configured, pushes to GitHub do not deploy; use the CLI command above. Local Vercel metadata and environment files are excluded from Git.
 
 ## Play
 
