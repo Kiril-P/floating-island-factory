@@ -19,15 +19,15 @@ Turn a grassy island into a factory, then send drones carrying cargo across the 
 
 Resources stay local to each island. Construction uses the shared headquarters stockpile. Progress saves in your browser; there is no offline production.
 
-The showcase compresses waiting along the verified purchase sequence; all purchases use earned resources.
+*The clip is a timelapse: waiting is sped up.*
 
 ## Development
 
 TypeScript, Three.js, Vite.
 
 ```sh
-bun install
-bun run dev
+npm install
+npm run dev
 ```
 
 [Development, verification, and deployment notes](DEVELOPMENT.md).
