@@ -4,7 +4,7 @@
 
 Turn a grassy island into a factory, then send drones carrying cargo across the clouds.
 
-**[▶ Play in browser](https://kpetrovski.me/play/floating-island-factory/)**
+**[▶ Play in browser](https://factory.kirilpetrovski.com/)**
 
 ![Floating Island Factory: empty](docs/media/13-floating-island-factory-empty.png)
 
